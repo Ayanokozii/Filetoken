@@ -13,10 +13,10 @@ APP_ID = int(os.environ.get("APP_ID", "28196711"))
 API_HASH = os.environ.get("API_HASH", "a8a23bffb12aae7a4c72fa2b4cd538a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002062956236"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002388563221"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6655939309"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7062003886"))
 
 #Port
 PORT = os.environ.get("PORT", "8484")
@@ -24,17 +24,17 @@ PORT = os.environ.get("PORT", "8484")
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://PANDABABY:PANDABABY@pandababy.rft5a3z.mongodb.net/?retryWrites=true&w=majority&appName=Pandababy")
-DB_NAME = os.environ.get("DATABASE_NAME", "ultroidxTeam")
+DB_NAME = os.environ.get("DATABASE_NAME", "TeamMorgan")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "runurl.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "36ed6009ba9d0ed675f6a66d148c63dd98844231")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/postingstuffs") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/+zti6E_mx8q9mNGQ0") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002110064878"))
@@ -57,16 +57,16 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "This video/Photo/anything is available on the internet. We LeakHubd or its subsidiary channel doesn't produce any of them.")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Join Posting Channel From  @postingstuffs For More Links/Files "
+USER_REPLY_TEXT = "Join Posting Channel From   For More Links/Files "
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(7062003886)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
